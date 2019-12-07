@@ -9,8 +9,8 @@ class Api::V1::VideosController < ApplicationController
         end
     end
     # videoの取得
-    def index
-        # とりあえず最後に保存したもの一件だけを表示
+    def fetch_latest_video
+        # 最後に保存したもの一件だけを表示
         video = Video.last.clip
         # ActiveStorageで保存したビデオのurlをjsonで返す
         url = url_for(video)
