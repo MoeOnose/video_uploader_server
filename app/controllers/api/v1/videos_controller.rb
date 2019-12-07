@@ -1,7 +1,7 @@
 class Api::V1::VideosController < ApplicationController
     # videoの保存
      def create
-        video = Video.save(video_params)
+        video = Video.new(video_params)
         if video.save
             render json: { status: 'ok' }
         else
