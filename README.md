@@ -1,24 +1,8 @@
-# README
+# VideoUploader
+for Qiita
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+RailsとSwiftで動画アップローダーを作る🚀
+https://qiita.com/mopiemon/items/bbc151b91760ee174466
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+アドベントカレンダーに寄稿した記事のAPIServer(Ruby on Rails)のソースコードです。
